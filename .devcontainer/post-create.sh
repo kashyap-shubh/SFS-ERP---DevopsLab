@@ -54,7 +54,7 @@ echo "=========================================="
 echo "Configuring Git LFS..."
 echo "=========================================="
 
-git lfs install
+git lfs install --skip-repo
 
 echo "=========================================="
 echo "DevOps Lab setup completed successfully!"
